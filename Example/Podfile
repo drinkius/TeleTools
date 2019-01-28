@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TeleTools_Example' do
+  pod 'TeleTools', :path => '../'
+
+  target 'TeleTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
