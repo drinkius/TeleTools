@@ -1,0 +1,16 @@
+PODS:
+  - TeleTools (0.1.0)
+
+DEPENDENCIES:
+  - TeleTools (from `../`)
+
+EXTERNAL SOURCES:
+  TeleTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TeleTools: 0124f478540163a39c1c47dadcf0c3f6ac99becb
+
+PODFILE CHECKSUM: 9509cea264767642f3ac8b15be4a5b230299ad33
+
+COCOAPODS: 1.5.3

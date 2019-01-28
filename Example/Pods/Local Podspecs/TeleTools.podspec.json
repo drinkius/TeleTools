@@ -1,0 +1,22 @@
+{
+  "name": "TeleTools",
+  "version": "0.1.0",
+  "summary": "A short description of TeleTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/telegin.alexander@gmail.com/TeleTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "telegin.alexander@gmail.com": "telegin.alexander@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/telegin.alexander@gmail.com/TeleTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TeleTools/Classes/**/*"
+}
