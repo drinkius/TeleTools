@@ -1,11 +1,8 @@
 use_frameworks!
+platform :ios, '10.0'
 
 target 'TeleTools_Example' do
   pod 'TeleTools', :path => '../'
+  pod 'TinyConstraints'
 
-  target 'TeleTools_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

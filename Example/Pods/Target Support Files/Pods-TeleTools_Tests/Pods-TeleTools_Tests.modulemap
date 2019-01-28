@@ -1,6 +1,0 @@
-framework module Pods_TeleTools_Tests {
-  umbrella header "Pods-TeleTools_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

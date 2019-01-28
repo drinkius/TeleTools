@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TeleTools_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TeleTools_TestsVersionString[];
+FOUNDATION_EXPORT double TinyConstraintsVersionNumber;
+FOUNDATION_EXPORT const unsigned char TinyConstraintsVersionString[];
 

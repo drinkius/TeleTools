@@ -7,18 +7,18 @@
 //
 
 import UIKit
+import TeleTools
+import TinyConstraints
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UILabel().add(to: view).do {
+          $0.text = "This is a label"
+          $0.textAlignment = .center
+          $0.edgesToSuperview()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
