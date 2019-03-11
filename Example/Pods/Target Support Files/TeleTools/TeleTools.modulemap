@@ -1,6 +1,0 @@
-framework module TeleTools {
-  umbrella header "TeleTools-umbrella.h"
-
-  export *
-  module * { export * }
-}

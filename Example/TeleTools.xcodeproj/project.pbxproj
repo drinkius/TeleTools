@@ -215,7 +215,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TeleTools_Example/Pods-TeleTools_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TeleTools_Example/Pods-TeleTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TeleTools/TeleTools.framework",
 				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
 			);
@@ -228,7 +228,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeleTools_Example/Pods-TeleTools_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeleTools_Example/Pods-TeleTools_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A3C52D17A9AA05621DB2FCE1 /* [CP] Check Pods Manifest.lock */ = {
