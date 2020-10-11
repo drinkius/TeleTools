@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 import TinyConstraints
 
-extension UIView {
+public extension UIView {
 
   @discardableResult
   func add(toStackContainer to: StackContainer) -> Self {
@@ -28,7 +28,7 @@ extension UIView {
   }
 }
 
-protocol StackContainer {
+public protocol StackContainer {
   var stackView: UIStackView { get }
   
   @discardableResult func addSpace(height: CGFloat) -> UIView
@@ -37,7 +37,7 @@ protocol StackContainer {
   func addView(_ view: UIView)
 }
 
-extension StackContainer {
+public extension StackContainer {
 
   @discardableResult
   func addSpace(height: CGFloat) -> UIView {
@@ -85,7 +85,7 @@ extension StackContainer {
 }
 
 extension UIStackView: StackContainer {
-  var stackView: UIStackView {
+    public var stackView: UIStackView {
     get { return self }
   }
 
@@ -107,8 +107,8 @@ extension UIStackView: StackContainer {
 
 public final class ScrollableStack: UIView, StackContainer {
 
-  let scrollView = UIScrollView()
-  let stackView = UIStackView()
+  public let scrollView = UIScrollView()
+  public let stackView = UIStackView()
 
   init(axis: NSLayoutConstraint.Axis = .vertical,
        spacing: CGFloat = 0,
