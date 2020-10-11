@@ -7,7 +7,7 @@ DEPENDENCIES:
   - TinyConstraints
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - TinyConstraints
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TeleTools: 20179e5aad9a0b09634ee5148a03eadde843305f
+  TeleTools: ff95942f5703e581366a8942cf2044bb6171a5b0
   TinyConstraints: 03bc091844b98c18dbaead8b1153242a42721b56
 
 PODFILE CHECKSUM: a3b7acbe129723b9d0cb7782e9e2dec68ed50f62
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.0.rc.1

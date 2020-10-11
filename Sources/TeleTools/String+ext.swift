@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 public extension Validator where Value == String {
   static func pattern(_ pattern: String, errorMessage: String) -> Validator<String> {
