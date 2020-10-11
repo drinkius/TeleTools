@@ -105,7 +105,7 @@ extension UIStackView: StackContainer {
   }
 }
 
-final class ScrollableStack: UIView, StackContainer {
+public final class ScrollableStack: UIView, StackContainer {
 
   let scrollView = UIScrollView()
   let stackView = UIStackView()

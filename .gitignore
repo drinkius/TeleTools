@@ -19,7 +19,10 @@ DerivedData
 *.hmap
 *.ipa
 
-Example/Pods
+PodExample/Pods
+PodExample/Podfile.lock
+PodExample/TeleTools.xcworkspace
+
 
 # Bundler
 .bundle
