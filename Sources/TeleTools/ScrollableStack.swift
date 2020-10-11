@@ -84,15 +84,12 @@ public extension StackContainer {
   }
 }
 
-extension UIStackView: StackContainer {
-    public var stackView: UIStackView {
-    get { return self }
-  }
+extension UIStackView {
 
-  static func stackContainer(axis: NSLayoutConstraint.Axis = .vertical,
-                             spacing: CGFloat = 0,
-                             distribution: UIStackView.Distribution = .equalSpacing,
-                             alignment: UIStackView.Alignment = .fill) -> UIStackView {
+  public static func stackContainer(axis: NSLayoutConstraint.Axis = .vertical,
+                                    spacing: CGFloat = 0,
+                                    distribution: UIStackView.Distribution = .equalSpacing,
+                                    alignment: UIStackView.Alignment = .fill) -> UIStackView {
 
     let stack = UIStackView().then {
       $0.axis = axis
@@ -110,10 +107,10 @@ public final class ScrollableStack: UIView, StackContainer {
   public let scrollView = UIScrollView()
   public let stackView = UIStackView()
 
-  init(axis: NSLayoutConstraint.Axis = .vertical,
-       spacing: CGFloat = 0,
-       distribution: UIStackView.Distribution = .equalSpacing,
-       alignment: UIStackView.Alignment = .fill) {
+  public init(axis: NSLayoutConstraint.Axis = .vertical,
+              spacing: CGFloat = 0,
+              distribution: UIStackView.Distribution = .equalSpacing,
+              alignment: UIStackView.Alignment = .fill) {
     
     super.init(frame: CGRect.zero)
     setup(axis: axis, spacing: spacing, distribution: distribution, alignment: alignment)
@@ -129,10 +126,10 @@ public final class ScrollableStack: UIView, StackContainer {
     setup()
   }
 
-  private func setup(axis: NSLayoutConstraint.Axis = .vertical,
-                     spacing: CGFloat = 0,
-                     distribution: UIStackView.Distribution = .equalSpacing,
-                     alignment: UIStackView.Alignment = .fill) {
+  public func setup(axis: NSLayoutConstraint.Axis = .vertical,
+                    spacing: CGFloat = 0,
+                    distribution: UIStackView.Distribution = .equalSpacing,
+                    alignment: UIStackView.Alignment = .fill) {
 
     self.addSubview(scrollView)
     scrollView.do {
