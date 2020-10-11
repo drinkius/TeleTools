@@ -7,166 +7,178 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B60BF8B9C484C9F30E5EF0430D1D78 /* UIBarButtonItem+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4AB1202124F739504DAE26C720E43 /* UIBarButtonItem+Signals.swift */; };
-		0356879737D597AD94C2AC087A77C0F4 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125472DCBD71B3C93BF7C946C2B356B /* UIView+Ext.swift */; };
-		06FA3B828EBC0EFE128A8F813A03BC88 /* TeleTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A80D5297EE10ED5C90C7CE10BA8CC2 /* TeleTools-dummy.m */; };
-		0842534259C1A6F8DEDA352D8BE91E88 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EA69E41977F6A322F56CE32DCAFA9 /* KeyboardObserver.swift */; };
-		0BB7B551E8AC438A0E94A91501C3CC87 /* ReaderWriterLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340FD6D2EBB5933A9214D4D4E5B6309 /* ReaderWriterLock.swift */; };
-		0D24FEFEF4298905C4AE3E9FC22DBC38 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */; };
-		1611F7DDBA713AB33D11CC627B817ADC /* TeleTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6554A872F755D64319457C9B69A162A1 /* TeleTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BF2BC31C6493A43BAD465EF1F3CAEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1F3AE3235137CF84A4F40093FC0441AE /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274DD748ACAE71A7330B970236D5EB7 /* Display.swift */; };
-		224F35B588476213E0B0AC1B39929E00 /* Collections+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C668A69428C1418FF8456B1BE3A8590 /* Collections+ext.swift */; };
-		24F5DE49605E9E40CBB21333BBF83A5F /* SimpleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7DA23A68EDD304D3519C3E0F1C20E /* SimpleError.swift */; };
-		261EC324578C07E41A10A9567BD1AA10 /* ValidatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C3642B008BB6EDD7D4B95AA72A89A3 /* ValidatableView.swift */; };
-		3111D327F649A6A493BED85D5A2A0143 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C451064304ED88B1D18E18B7B57FC7 /* AsyncOperation.swift */; };
-		3C8D7933B64A61DEDBC4A67EE8E1556A /* CoreGraphics+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40B412CEEA1AF178BA28CC10693D3A /* CoreGraphics+ext.swift */; };
-		3CB5C1E24646625EFDD8BC8D0EBB2EFD /* Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2585CEF92E15A410D87020F50E3897 /* Associated.swift */; };
-		475763EFE7C2F8C746575166FB009C57 /* UIImage+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215B63076A5F6F0D56099B4A7364C40 /* UIImage+ext.swift */; };
+		05E6E5017558878F8A2B5E39718B8828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		0E79AFAAB81C6C09ECA1361E8F5E195E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F828161F4C1B117B96823DEFE915D42 /* Time.swift */; };
+		225139B2B0FB117708A038EC61FB5D03 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */; };
+		25BC99279BFB692B47264DD650EF94AE /* UIDevice+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1ACC54B00876C4941E3D71424E311 /* UIDevice+ext.swift */; };
+		26A9B81EA9520201909123CFD601647B /* ReaderWriterLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9FBF64EAACBDCB4813909F722DA5B /* ReaderWriterLock.swift */; };
+		2D50BA15B58FB2EEE8518E9F747AA1E5 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A6777BC9B18328AE9BE85C5CF8D00 /* TinyConstraints-dummy.m */; };
+		2D76BD62F84144C42E6CEF722BD8E4E3 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C237044053DBA8B68378C6F80F10A1 /* TinyConstraints+superview.swift */; };
+		316F6AAEE661CC916DD8DA9F0E1ED68A /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0606FB7425700C8E264DB13B08E28B /* AssociatedObject.swift */; };
+		33E726BF139A029E16D7FEE5C0FD739E /* TouchRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C3DE4E236CD34D3799147D9B89A7E /* TouchRecognizer.swift */; };
+		347622672C41FD4FC127A77AEA7E1EB5 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */; };
+		3B3B80EAA8194F5160BB0A16ACED540E /* TeleTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3E8AA9577CE0DFE9617FC0227A55A6 /* TeleTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F78E0B5BB1D86F396B18FF9A6F152F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		42D057AFDE53EF70390D24BDCFBC8F27 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66CC53ADE3D6DA8F27ADF60CB2319BA /* Validation.swift */; };
+		445401B653948519430F0A94A5231EF8 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405D701F84512B719BD709BB1E84CD5 /* Then.swift */; };
+		46CA3E6524BB2AB23493B8956C4B9357 /* Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA5D06AED95AB4BE5263CA041B0B74 /* Associated.swift */; };
+		474B3683C2E6618BCA275050D3B4AE91 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD37BD35258EA016BF61492F4E893B /* Signal.swift */; };
 		4E60AD96DA9A73A4162056209E7474C3 /* Pods-TeleTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 688467F72F6C50BD4F029EAFE5367229 /* Pods-TeleTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		581C9781C6886180441FE353A636EAC2 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D4347ABC1CDD69939ADA269B69CEA /* Time.swift */; };
-		602071FBBC9CE2E7E138D4B67223D4A9 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A6777BC9B18328AE9BE85C5CF8D00 /* TinyConstraints-dummy.m */; };
-		60F5F74D4782C3E8510CDEBCF362FE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		69960CC33957184087720E851E1DE167 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81B75CD31B9495033DF2645AA50497 /* Validation.swift */; };
-		6A04B46498903EFBD4221A92FC121CED /* UIControl+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA2C8E4FDE5282F6B66AE955F23136 /* UIControl+Signals.swift */; };
-		769AD28D87D6138B3D060F3FD84BA5C0 /* TouchRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868E98F81CCD22796CA36C35C28EC10 /* TouchRecognizer.swift */; };
-		76E9FF9B6C0C3606BFCA623BBED26E28 /* UIGestureRecognizer+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7CD522F574622E67FCDAFE4B172C1 /* UIGestureRecognizer+ext.swift */; };
-		7F686C87FC60238F640B1973302B6D08 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29655FF0056FD25EC57F7909547C21E /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80C64F8B50FDB2E25A939480C3FEC43A /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C237044053DBA8B68378C6F80F10A1 /* TinyConstraints+superview.swift */; };
-		82FDE96FFFEE01BA537A092D8FDB9C36 /* NSAttributedStrings+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9173A330CCD3C8E171649375FC012E /* NSAttributedStrings+ext.swift */; };
-		835C722D5BD2FE03D6485A5F393AEDBF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C9462E55013CAF5D7F3CA7922DCFAC /* Reachability.swift */; };
-		8DCD6F440587FA8D3A5F6F0918A88BE9 /* String+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E0F16CA658D9084A69D80E36B84A3 /* String+ext.swift */; };
-		A459B8C0FF4A89503F4E175266A6A636 /* UIWindow+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E19DA4E58C25CD3F3B37C886CEC90E /* UIWindow+ext.swift */; };
-		A5AD56B6C752EB95E89D553B81BE128E /* SignalSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F837F7B7E6662FF1519F2AA2183B35F /* SignalSubscription.swift */; };
-		A8F7C1B9900BE49A48037A2E4AB1E8B7 /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52577A6CA97D3A25EF950206747AB75 /* AssociatedObject.swift */; };
-		AAD549227AB02F6D85D5A4F8F0E86EBF /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B2793C8F6D98A1B58500EB8C5F756 /* Signal.swift */; };
-		B45CEEFC0B8371F2AFFB683888CD8474 /* UIDevice+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A612D22CD0FC7D91119E804ABC217E /* UIDevice+ext.swift */; };
-		BAFA8468337ED1F5F6C3D68FC843CF44 /* Hapticable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608B0FB31BF759EB5F0801A5161FB2D /* Hapticable.swift */; };
-		C34375F1F19E45E00BCD5F4B4D94023B /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414421B229188CD402C45EBB6BE9D27 /* UIViewController+ext.swift */; };
-		C70512D9AC7AABAC6AE97A1A76B628F6 /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7772294E5F1EAD623F3590DDE108630 /* Fillable.swift */; };
-		CA2EC72A707A5E422B754764160E4280 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D7E45B842C94A21F76E1C04FED26C /* Result.swift */; };
-		CBE5AE4691C03C1062B2FC56A8B6C521 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA830B41F8E25476BF1850AE640B19 /* Snapshot.swift */; };
-		CBF8630B51B556B1D93FF064C433A66E /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */; };
-		CCAEE4BF0C676D5173590E04D29BAE92 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */; };
-		CF02EC2E221252D9C6969EF65CE65C02 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E293EE8D057C2F976EB587989056C16 /* Haptic.swift */; };
-		CFF984D0BDE08492C60CC2D9C75E2C96 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */; };
-		D5CFB8A31EA957515FD3195AC242782A /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68A6F0E8C9C621D30F17BC5B426F22 /* Then.swift */; };
+		531FC94B84BB526D211A505BB10F995F /* Hapticable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F9F9AB30DE648BE9D7040350EAC44 /* Hapticable.swift */; };
+		55700357FB16E7B526647B2E9639C434 /* String+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1AD03BC4AAC233647E5E34C8DBC8F5 /* String+ext.swift */; };
+		5949169DBE1D7DA8E1CA41D523F89C6A /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91579E8D1D6070D567879E8C08C02ABC /* Haptic.swift */; };
+		5D80D8B3529EEA9C531B1E45384402CE /* NSAttributedStrings+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0CF369CAA83377B9DDB22349F627F /* NSAttributedStrings+ext.swift */; };
+		60F5F74D4782C3E8510CDEBCF362FE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */; };
+		658F6866FF4F6E1F95E5BA4EBD7235A6 /* InputVisibilityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE43FF54E05A262F21CFE0175448FB3 /* InputVisibilityController.swift */; };
+		69B223FF67C220E3ABA7063048B6FE6E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167D8CFA07F403ED1B55EE0B35A1A70 /* Result.swift */; };
+		6AE6856D06A1AD0E18A4C2ED906E8D02 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */; };
+		731EC270FF8C8929707BA0513122F20C /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D38FB58704DDB6C4EF8B7A694C4FB7 /* UIView+Animations.swift */; };
+		800ABC614A81608EBDA69F5A0EB8E466 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C9B64A1BAC9E8301F71EAEF5103BF2 /* TinyConstraints.framework */; };
+		9783CDE7DCDF2E5F017D9099367D154A /* SimpleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8ED98A009E89815FEED3F365E1782 /* SimpleError.swift */; };
+		9C52E3B87A5E5656FEA44B76E0E85F56 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A471277C53C522FAD99EAB19C78D91 /* UIViewController+ext.swift */; };
+		A5E1A4D37C7CE0343725E93BE6817648 /* Collections+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B28A0FCA06F335C4CE6DFC727E7867 /* Collections+ext.swift */; };
+		A79493A75917C2D3CA3782715C034257 /* CoreGraphics+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B9D4393B28D4A86880A1A18CA22E30 /* CoreGraphics+ext.swift */; };
+		A86F7D65BEFDA96C7A41C40CEBFE9AD3 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12347172FC928E6E5609D6A1FDE2C6BF /* Dependencies.swift */; };
+		A9DE0B4D8CD3DFC21D3C0D0BBCDD0A93 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */; };
+		AD846C7F1C2DB6A3364B15498322BBCB /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F15295804B5506DBA6AA75AF9E202E4 /* Display.swift */; };
+		B60BD03C12C1FA703DDB738DFEEAA1D6 /* ValidatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD45A6361CCC40A17DF1E4D22A57A1 /* ValidatableView.swift */; };
+		BAE5A71E134B2C4A66202B1449E1EAB7 /* UIWindow+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E639820ED6E33E91814F2C1C0E4D0A /* UIWindow+ext.swift */; };
+		BB5AA8414AA6203D9B2BCFC519531536 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE08D86BE3870906D0D8BB71CC725FE /* KeyboardObserver.swift */; };
+		BF851A1CD57A7E5B84D4982CC0EF0CB2 /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C19CF6A05AB8733E0C333FF624888E /* Fillable.swift */; };
+		C4CE54F138FB1860D99B01A45E2CF3FE /* UIControl+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7EA7D1BD9D5657934C3406618755F /* UIControl+Signals.swift */; };
+		CF318783608E522CC99EA0A9D2EEBB87 /* UIImage+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9236B28C808D7115BA8385F701AEB1B /* UIImage+ext.swift */; };
+		D4A864980F6CF3AFC1A5DAA2CC165547 /* SignalSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8043E6222603EC159A8F1F31644E0 /* SignalSubscription.swift */; };
 		D7080B3473E720E65E2AAE2CA5958104 /* Pods-TeleTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E849C841DC0566D7121A3B706D9D35A9 /* Pods-TeleTools_Example-dummy.m */; };
-		DF7A6BC0D371FF7ECA74781F562C475F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */; };
-		E85A5698B28301501CBC789987F04EE4 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D277A02A11839B4CD2E6012CDE5D95 /* UIView+Animations.swift */; };
-		EAB56C7B2652650A976538B12FBAC59D /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */; };
-		F4BF68155DE83ED40C740EA7F9EE3E15 /* InputVisibilityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FADB041C5AE43DC834E9232593B7268 /* InputVisibilityController.swift */; };
-		F76A65D150C88060F652E5DB8C9C8E14 /* UIAlertController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F314FA0C1513B35215AB6F6F6A427 /* UIAlertController+ext.swift */; };
-		F89DDE2BE4B4C16826AC30BBC21ACC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D78720B463FA5C9FD40B73CC86468074 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB405E3A8366626FC451E115D82A371 /* Snapshot.swift */; };
+		DB13644908F982C47D4218D613CAEAAD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC187CFF83A5A57D091FBFF32A5AB6 /* Reachability.swift */; };
+		E492ACA289A3661A48324C4DFA0C147B /* UIGestureRecognizer+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D18087A9EC724566C985A636E37919C /* UIGestureRecognizer+ext.swift */; };
+		E87CFBB1559A8D3D80BDCA0884A460A8 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65C8915942D5A4C14FAAFEADAE0A23 /* AsyncOperation.swift */; };
+		ED8AC506D2167BBD452498432183E4F3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */; };
+		F0EFC2403DD306F2368B9BF4A7BECB32 /* UIAlertController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0716E73A203531AA6E5FE213364F0555 /* UIAlertController+ext.swift */; };
+		F2108A598B4361DAD7C3DD129DE87F6F /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29655FF0056FD25EC57F7909547C21E /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA850B60D9D1B538341ADE468F2FC7FD /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */; };
+		FAA16370708620D5EBA13816F75AC29C /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA555FB253C242A6903DCE331B58685 /* UIView+Ext.swift */; };
+		FBF302013C4FFC064C9FB3BCD43C03D4 /* UIBarButtonItem+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760F47EFFDF7E0DE3430410005CC8FD /* UIBarButtonItem+Signals.swift */; };
+		FC52F7DD946E25FA9D09C88569CE585A /* TeleTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B26EAA7678B549A8526DD6360F1A3 /* TeleTools-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6506F2014FFBF6AFBC947A788D66425C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A730C3CD4B1B25CEEAA97FF5238BB10F;
-			remoteInfo = TeleTools;
-		};
-		A34121D79BB2B456720054EF519625B6 /* PBXContainerItemProxy */ = {
+		359E9478E2202DCB43051EC41FF0D82B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
 			remoteInfo = TinyConstraints;
 		};
+		4D5E3BEDD25FFC4FDDDBD29B79E404CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		EFCF16E6835418234644CD6B095E4E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A730C3CD4B1B25CEEAA97FF5238BB10F;
+			remoteInfo = TeleTools;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B28A0FCA06F335C4CE6DFC727E7867 /* Collections+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collections+ext.swift"; path = "Sources/TeleTools/Collections+ext.swift"; sourceTree = "<group>"; };
+		0716E73A203531AA6E5FE213364F0555 /* UIAlertController+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+ext.swift"; path = "Sources/TeleTools/UIAlertController+ext.swift"; sourceTree = "<group>"; };
+		0E3E8AA9577CE0DFE9617FC0227A55A6 /* TeleTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TeleTools-umbrella.h"; sourceTree = "<group>"; };
 		0F21E8A5AC2E1CA26107E1ACBF41B72C /* Pods-TeleTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TeleTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0FDA830B41F8E25476BF1850AE640B19 /* Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
-		12A612D22CD0FC7D91119E804ABC217E /* UIDevice+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+ext.swift"; path = "Sources/TeleTools/UIDevice+ext.swift"; sourceTree = "<group>"; };
+		115C3DE4E236CD34D3799147D9B89A7E /* TouchRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchRecognizer.swift; sourceTree = "<group>"; };
+		11EA5D06AED95AB4BE5263CA041B0B74 /* Associated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Associated.swift; sourceTree = "<group>"; };
+		12347172FC928E6E5609D6A1FDE2C6BF /* Dependencies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dependencies.swift; path = Sources/TeleTools/Dependencies.swift; sourceTree = "<group>"; };
 		13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
-		17C9462E55013CAF5D7F3CA7922DCFAC /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/TeleTools/Reachability.swift; sourceTree = "<group>"; };
-		199101E8D2C131C2B96093D79995DDE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19F7EA7D1BD9D5657934C3406618755F /* UIControl+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Signals.swift"; sourceTree = "<group>"; };
 		1BF03D2133CA6AF04040A63DA34C3F57 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
-		1C668A69428C1418FF8456B1BE3A8590 /* Collections+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collections+ext.swift"; path = "Sources/TeleTools/Collections+ext.swift"; sourceTree = "<group>"; };
 		23182B2410BA7DC31842E6600493E73E /* Pods-TeleTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TeleTools_Example-Info.plist"; sourceTree = "<group>"; };
-		236B2F3F53823A811CDFBDD32042FD70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2608B0FB31BF759EB5F0801A5161FB2D /* Hapticable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hapticable.swift; sourceTree = "<group>"; };
-		2A81B75CD31B9495033DF2645AA50497 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Sources/TeleTools/Validation.swift; sourceTree = "<group>"; };
-		2A9173A330CCD3C8E171649375FC012E /* NSAttributedStrings+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedStrings+ext.swift"; path = "Sources/TeleTools/NSAttributedStrings+ext.swift"; sourceTree = "<group>"; };
-		2F837F7B7E6662FF1519F2AA2183B35F /* SignalSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignalSubscription.swift; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		374A77B5053F55B37B32BC97073CC19E /* TeleTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TeleTools-prefix.pch"; sourceTree = "<group>"; };
+		329B26EAA7678B549A8526DD6360F1A3 /* TeleTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TeleTools-dummy.m"; sourceTree = "<group>"; };
+		32C9B64A1BAC9E8301F71EAEF5103BF2 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E4A84466EA7F378AC362993FFD43C7 /* TeleTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TeleTools-prefix.pch"; sourceTree = "<group>"; };
+		3405D701F84512B719BD709BB1E84CD5 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/TeleTools/Then.swift; sourceTree = "<group>"; };
+		3760F47EFFDF7E0DE3430410005CC8FD /* UIBarButtonItem+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Signals.swift"; sourceTree = "<group>"; };
 		37C5A7A34282932064D3F3E64FD93EFF /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		3AE08D86BE3870906D0D8BB71CC725FE /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
-		4E293EE8D057C2F976EB587989056C16 /* Haptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
 		53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
-		5868E98F81CCD22796CA36C35C28EC10 /* TouchRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchRecognizer.swift; sourceTree = "<group>"; };
-		59A4AB1202124F739504DAE26C720E43 /* UIBarButtonItem+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Signals.swift"; sourceTree = "<group>"; };
-		5A2F314FA0C1513B35215AB6F6F6A427 /* UIAlertController+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+ext.swift"; path = "Sources/TeleTools/UIAlertController+ext.swift"; sourceTree = "<group>"; };
-		5D7F9DE9A1F5194992E90F31147D454E /* TeleTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TeleTools.modulemap; sourceTree = "<group>"; };
-		5D8D4347ABC1CDD69939ADA269B69CEA /* Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
-		6554A872F755D64319457C9B69A162A1 /* TeleTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TeleTools-umbrella.h"; sourceTree = "<group>"; };
-		67A7CD522F574622E67FCDAFE4B172C1 /* UIGestureRecognizer+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+ext.swift"; sourceTree = "<group>"; };
+		63E639820ED6E33E91814F2C1C0E4D0A /* UIWindow+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIWindow+ext.swift"; sourceTree = "<group>"; };
 		688467F72F6C50BD4F029EAFE5367229 /* Pods-TeleTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TeleTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D18087A9EC724566C985A636E37919C /* UIGestureRecognizer+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+ext.swift"; sourceTree = "<group>"; };
 		6E8D84C71CBF2543B2ECBF0FE1A63B1E /* Pods-TeleTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TeleTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		70D277A02A11839B4CD2E6012CDE5D95 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "Sources/TeleTools/UIView+Animations.swift"; sourceTree = "<group>"; };
-		7215B63076A5F6F0D56099B4A7364C40 /* UIImage+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ext.swift"; path = "Sources/TeleTools/UIImage+ext.swift"; sourceTree = "<group>"; };
-		72C3642B008BB6EDD7D4B95AA72A89A3 /* ValidatableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatableView.swift; path = Sources/TeleTools/ValidatableView.swift; sourceTree = "<group>"; };
-		7340FD6D2EBB5933A9214D4D4E5B6309 /* ReaderWriterLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderWriterLock.swift; path = Sources/TeleTools/ReaderWriterLock.swift; sourceTree = "<group>"; };
-		7414421B229188CD402C45EBB6BE9D27 /* UIViewController+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+ext.swift"; path = "Sources/TeleTools/UIViewController+ext.swift"; sourceTree = "<group>"; };
-		75A80D5297EE10ED5C90C7CE10BA8CC2 /* TeleTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TeleTools-dummy.m"; sourceTree = "<group>"; };
+		70B9D4393B28D4A86880A1A18CA22E30 /* CoreGraphics+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoreGraphics+ext.swift"; path = "Sources/TeleTools/CoreGraphics+ext.swift"; sourceTree = "<group>"; };
+		7167D8CFA07F403ED1B55EE0B35A1A70 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/TeleTools/Result.swift; sourceTree = "<group>"; };
+		73F8043E6222603EC159A8F1F31644E0 /* SignalSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignalSubscription.swift; sourceTree = "<group>"; };
 		78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
-		780D7E45B842C94A21F76E1C04FED26C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/TeleTools/Result.swift; sourceTree = "<group>"; };
 		792A2D239033E740F0D26C71413F4A0E /* Pods-TeleTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TeleTools_Example.modulemap"; sourceTree = "<group>"; };
-		7AC7DA23A68EDD304D3519C3E0F1C20E /* SimpleError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleError.swift; sourceTree = "<group>"; };
+		7D0606FB7425700C8E264DB13B08E28B /* AssociatedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
 		7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
-		7FADB041C5AE43DC834E9232593B7268 /* InputVisibilityController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputVisibilityController.swift; sourceTree = "<group>"; };
-		8B68A6F0E8C9C621D30F17BC5B426F22 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/TeleTools/Then.swift; sourceTree = "<group>"; };
+		81C0CF369CAA83377B9DDB22349F627F /* NSAttributedStrings+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedStrings+ext.swift"; path = "Sources/TeleTools/NSAttributedStrings+ext.swift"; sourceTree = "<group>"; };
+		81C19CF6A05AB8733E0C333FF624888E /* Fillable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fillable.swift; path = Sources/TeleTools/Fillable.swift; sourceTree = "<group>"; };
+		8EA555FB253C242A6903DCE331B58685 /* UIView+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ext.swift"; path = "Sources/TeleTools/UIView+Ext.swift"; sourceTree = "<group>"; };
+		8F15295804B5506DBA6AA75AF9E202E4 /* Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		91579E8D1D6070D567879E8C08C02ABC /* Haptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		97AC187CFF83A5A57D091FBFF32A5AB6 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/TeleTools/Reachability.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAA2C8E4FDE5282F6B66AE955F23136 /* UIControl+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIControl+Signals.swift"; sourceTree = "<group>"; };
-		A45C0A2F346580FBE5BAD8B44C01EAAB /* TeleTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TeleTools-Info.plist"; sourceTree = "<group>"; };
-		A57EA69E41977F6A322F56CE32DCAFA9 /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
-		AB2585CEF92E15A410D87020F50E3897 /* Associated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Associated.swift; sourceTree = "<group>"; };
-		B7E19DA4E58C25CD3F3B37C886CEC90E /* UIWindow+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIWindow+ext.swift"; sourceTree = "<group>"; };
+		9F828161F4C1B117B96823DEFE915D42 /* Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		A6D38FB58704DDB6C4EF8B7A694C4FB7 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "Sources/TeleTools/UIView+Animations.swift"; sourceTree = "<group>"; };
 		B874694204924BF38240FEB07F8BDCF8 /* Pods-TeleTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TeleTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD3CEC737FAF01F9764155C0F2E8B31D /* TeleTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TeleTools.framework; path = TeleTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD8EFF539772E2A46520BEAD4E98C497 /* TeleTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TeleTools.release.xcconfig; sourceTree = "<group>"; };
+		BDB405E3A8366626FC451E115D82A371 /* Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
 		BFE2FED9E5E9AC54EDA0E6C44E8B1755 /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
 		C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
-		C15E0F16CA658D9084A69D80E36B84A3 /* String+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ext.swift"; path = "Sources/TeleTools/String+ext.swift"; sourceTree = "<group>"; };
-		C183B2E9723655DEC3EF674525F5088C /* TeleTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TeleTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1A471277C53C522FAD99EAB19C78D91 /* UIViewController+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+ext.swift"; path = "Sources/TeleTools/UIViewController+ext.swift"; sourceTree = "<group>"; };
 		C29655FF0056FD25EC57F7909547C21E /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
 		C6C237044053DBA8B68378C6F80F10A1 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
-		CE40B412CEEA1AF178BA28CC10693D3A /* CoreGraphics+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoreGraphics+ext.swift"; path = "Sources/TeleTools/CoreGraphics+ext.swift"; sourceTree = "<group>"; };
+		CA1AD03BC4AAC233647E5E34C8DBC8F5 /* String+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ext.swift"; path = "Sources/TeleTools/String+ext.swift"; sourceTree = "<group>"; };
+		D0C843CFD13A6441278BCF1FBC433480 /* TeleTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TeleTools.modulemap; sourceTree = "<group>"; };
 		D14B8BA2E491A6DE3EEBB46DF34D90D4 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
-		D7772294E5F1EAD623F3590DDE108630 /* Fillable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fillable.swift; path = Sources/TeleTools/Fillable.swift; sourceTree = "<group>"; };
+		D66CC53ADE3D6DA8F27ADF60CB2319BA /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Sources/TeleTools/Validation.swift; sourceTree = "<group>"; };
 		D77A6777BC9B18328AE9BE85C5CF8D00 /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		D7B8ED98A009E89815FEED3F365E1782 /* SimpleError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleError.swift; sourceTree = "<group>"; };
+		D9236B28C808D7115BA8385F701AEB1B /* UIImage+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ext.swift"; path = "Sources/TeleTools/UIImage+ext.swift"; sourceTree = "<group>"; };
 		D9D48A919EED9A92A1ECFA06B1C48529 /* Pods_TeleTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TeleTools_Example.framework; path = "Pods-TeleTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE6C1C29E1FCD845805FC4D3C4E12F85 /* TeleTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TeleTools.debug.xcconfig; sourceTree = "<group>"; };
+		DEE58BF2F5835A6646735F2796C3316B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DF769975D1E173005A490F6C3D7845F1 /* Pods-TeleTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TeleTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E125472DCBD71B3C93BF7C946C2B356B /* UIView+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ext.swift"; path = "Sources/TeleTools/UIView+Ext.swift"; sourceTree = "<group>"; };
-		E1C451064304ED88B1D18E18B7B57FC7 /* AsyncOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncOperation.swift; path = Sources/TeleTools/AsyncOperation.swift; sourceTree = "<group>"; };
-		E274DD748ACAE71A7330B970236D5EB7 /* Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		E2B7BB95B8377C44C5AE764953D7E6D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E5E27C1634FB36D16B17E42A64881B91 /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
 		E849C841DC0566D7121A3B706D9D35A9 /* Pods-TeleTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TeleTools_Example-dummy.m"; sourceTree = "<group>"; };
+		E9C1ACC54B00876C4941E3D71424E311 /* UIDevice+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+ext.swift"; path = "Sources/TeleTools/UIDevice+ext.swift"; sourceTree = "<group>"; };
+		EAE43FF54E05A262F21CFE0175448FB3 /* InputVisibilityController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputVisibilityController.swift; sourceTree = "<group>"; };
+		EBC71585BCA71844C86A2DCB46821E70 /* TeleTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TeleTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBF9FBF64EAACBDCB4813909F722DA5B /* ReaderWriterLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderWriterLock.swift; path = Sources/TeleTools/ReaderWriterLock.swift; sourceTree = "<group>"; };
+		EE22920A3070606CF0FCD85E5C04D5A9 /* TeleTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TeleTools-Info.plist"; sourceTree = "<group>"; };
 		F268881B2CA091AB6A7D237D6D231709 /* Pods-TeleTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TeleTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F32B2793C8F6D98A1B58500EB8C5F756 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
-		F52577A6CA97D3A25EF950206747AB75 /* AssociatedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
+		F42F9F9AB30DE648BE9D7040350EAC44 /* Hapticable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hapticable.swift; sourceTree = "<group>"; };
+		F45B5582C36B7ACA797AC327A71B5CC3 /* TeleTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TeleTools.release.xcconfig; sourceTree = "<group>"; };
+		F4BD45A6361CCC40A17DF1E4D22A57A1 /* ValidatableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatableView.swift; path = Sources/TeleTools/ValidatableView.swift; sourceTree = "<group>"; };
+		F6BD37BD35258EA016BF61492F4E893B /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		FEA5315766B025AF1ECC0C866DEB2866 /* TeleTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TeleTools.debug.xcconfig; sourceTree = "<group>"; };
+		FF65C8915942D5A4C14FAAFEADAE0A23 /* AsyncOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncOperation.swift; path = Sources/TeleTools/AsyncOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36535A7B888AFE58F76BDA6B07CEB9C6 /* Frameworks */ = {
+		1DF1D2C66F692A354F6D91F2C5206414 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F89DDE2BE4B4C16826AC30BBC21ACC57 /* Foundation.framework in Frameworks */,
+				05E6E5017558878F8A2B5E39718B8828 /* Foundation.framework in Frameworks */,
+				800ABC614A81608EBDA69F5A0EB8E466 /* TinyConstraints.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F12B167BF329834034354D508775FE5 /* Frameworks */ = {
+		2F863944189B619C76C95C29F9F4BFCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF2BC31C6493A43BAD465EF1F3CAEF8 /* Foundation.framework in Frameworks */,
+				3F78E0B5BB1D86F396B18FF9A6F152F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,17 +193,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0526BB6CA4689756F53CF7E5278FCF5F /* UIKit */ = {
+		024A867655A89F80213A1970BD703FD4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E274DD748ACAE71A7330B970236D5EB7 /* Display.swift */,
-				0FDA830B41F8E25476BF1850AE640B19 /* Snapshot.swift */,
-				67A7CD522F574622E67FCDAFE4B172C1 /* UIGestureRecognizer+ext.swift */,
-				B7E19DA4E58C25CD3F3B37C886CEC90E /* UIWindow+ext.swift */,
-				C6FBE1FE5D968B8DE7B74A10AC99E80B /* Keyboard */,
+				977FFF5AEB55DDE7E7E595FAD376CD9A /* TeleTools */,
 			);
-			name = UIKit;
-			path = Sources/TeleTools/UIKit;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0615D841081699FB01EA29F5185FB606 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3AE08D86BE3870906D0D8BB71CC725FE /* KeyboardObserver.swift */,
+				8FD80A1191D58EB02CC86C7B20287232 /* InputVisibilityController */,
+			);
+			name = Keyboard;
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		11B68917B803E7DEF24E2DECA400FF1D /* Signals */ = {
+			isa = PBXGroup;
+			children = (
+				11EA5D06AED95AB4BE5263CA041B0B74 /* Associated.swift */,
+				7D0606FB7425700C8E264DB13B08E28B /* AssociatedObject.swift */,
+				F6BD37BD35258EA016BF61492F4E893B /* Signal.swift */,
+				73F8043E6222603EC159A8F1F31644E0 /* SignalSubscription.swift */,
+				3760F47EFFDF7E0DE3430410005CC8FD /* UIBarButtonItem+Signals.swift */,
+				19F7EA7D1BD9D5657934C3406618755F /* UIControl+Signals.swift */,
+			);
+			name = Signals;
+			path = Sources/TeleTools/Signals;
+			sourceTree = "<group>";
+		};
+		1C8EF99A3659D3A8C70603A243614E7D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8ED98A009E89815FEED3F365E1782 /* SimpleError.swift */,
+				9F828161F4C1B117B96823DEFE915D42 /* Time.swift */,
+			);
+			name = Utilities;
+			path = Sources/TeleTools/Utilities;
 			sourceTree = "<group>";
 		};
 		2157132511ACE3737EE7FBF52E083D71 /* Pods-TeleTools_Example */ = {
@@ -209,48 +250,6 @@
 			);
 			name = "Pods-TeleTools_Example";
 			path = "Target Support Files/Pods-TeleTools_Example";
-			sourceTree = "<group>";
-		};
-		4F9A06A246CD38D47CF1CF18FC0E9DC4 /* TeleTools */ = {
-			isa = PBXGroup;
-			children = (
-				E1C451064304ED88B1D18E18B7B57FC7 /* AsyncOperation.swift */,
-				1C668A69428C1418FF8456B1BE3A8590 /* Collections+ext.swift */,
-				CE40B412CEEA1AF178BA28CC10693D3A /* CoreGraphics+ext.swift */,
-				D7772294E5F1EAD623F3590DDE108630 /* Fillable.swift */,
-				2A9173A330CCD3C8E171649375FC012E /* NSAttributedStrings+ext.swift */,
-				17C9462E55013CAF5D7F3CA7922DCFAC /* Reachability.swift */,
-				7340FD6D2EBB5933A9214D4D4E5B6309 /* ReaderWriterLock.swift */,
-				780D7E45B842C94A21F76E1C04FED26C /* Result.swift */,
-				C15E0F16CA658D9084A69D80E36B84A3 /* String+ext.swift */,
-				8B68A6F0E8C9C621D30F17BC5B426F22 /* Then.swift */,
-				5A2F314FA0C1513B35215AB6F6F6A427 /* UIAlertController+ext.swift */,
-				12A612D22CD0FC7D91119E804ABC217E /* UIDevice+ext.swift */,
-				7215B63076A5F6F0D56099B4A7364C40 /* UIImage+ext.swift */,
-				70D277A02A11839B4CD2E6012CDE5D95 /* UIView+Animations.swift */,
-				E125472DCBD71B3C93BF7C946C2B356B /* UIView+Ext.swift */,
-				7414421B229188CD402C45EBB6BE9D27 /* UIViewController+ext.swift */,
-				72C3642B008BB6EDD7D4B95AA72A89A3 /* ValidatableView.swift */,
-				2A81B75CD31B9495033DF2645AA50497 /* Validation.swift */,
-				6D03AE709A2C0EB5181DC1F27B292A3A /* Haptic */,
-				C3F6B501E1A336DACC76358D0A9450C0 /* Pod */,
-				FD83F036F5FF6BA4EC89B3556AAFC50D /* Signals */,
-				C2EA939518DC02712C39E6DD881EE834 /* Support Files */,
-				0526BB6CA4689756F53CF7E5278FCF5F /* UIKit */,
-				7727C46D403A2FB108A49E40902336AE /* Utilities */,
-			);
-			name = TeleTools;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		52BC5638C70DE9C79D6DDF87E7266426 /* InputVisibilityController */ = {
-			isa = PBXGroup;
-			children = (
-				7FADB041C5AE43DC834E9232593B7268 /* InputVisibilityController.swift */,
-				5868E98F81CCD22796CA36C35C28EC10 /* TouchRecognizer.swift */,
-			);
-			name = InputVisibilityController;
-			path = InputVisibilityController;
 			sourceTree = "<group>";
 		};
 		66F7B86CE8FCF1C7A66B95E3D03A19DD /* Support Files */ = {
@@ -276,24 +275,65 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6D03AE709A2C0EB5181DC1F27B292A3A /* Haptic */ = {
+		8FD80A1191D58EB02CC86C7B20287232 /* InputVisibilityController */ = {
 			isa = PBXGroup;
 			children = (
-				4E293EE8D057C2F976EB587989056C16 /* Haptic.swift */,
-				2608B0FB31BF759EB5F0801A5161FB2D /* Hapticable.swift */,
+				EAE43FF54E05A262F21CFE0175448FB3 /* InputVisibilityController.swift */,
+				115C3DE4E236CD34D3799147D9B89A7E /* TouchRecognizer.swift */,
 			);
-			name = Haptic;
-			path = Sources/TeleTools/Haptic;
+			name = InputVisibilityController;
+			path = InputVisibilityController;
 			sourceTree = "<group>";
 		};
-		7727C46D403A2FB108A49E40902336AE /* Utilities */ = {
+		977FFF5AEB55DDE7E7E595FAD376CD9A /* TeleTools */ = {
 			isa = PBXGroup;
 			children = (
-				7AC7DA23A68EDD304D3519C3E0F1C20E /* SimpleError.swift */,
-				5D8D4347ABC1CDD69939ADA269B69CEA /* Time.swift */,
+				FF65C8915942D5A4C14FAAFEADAE0A23 /* AsyncOperation.swift */,
+				04B28A0FCA06F335C4CE6DFC727E7867 /* Collections+ext.swift */,
+				70B9D4393B28D4A86880A1A18CA22E30 /* CoreGraphics+ext.swift */,
+				12347172FC928E6E5609D6A1FDE2C6BF /* Dependencies.swift */,
+				81C19CF6A05AB8733E0C333FF624888E /* Fillable.swift */,
+				81C0CF369CAA83377B9DDB22349F627F /* NSAttributedStrings+ext.swift */,
+				97AC187CFF83A5A57D091FBFF32A5AB6 /* Reachability.swift */,
+				EBF9FBF64EAACBDCB4813909F722DA5B /* ReaderWriterLock.swift */,
+				7167D8CFA07F403ED1B55EE0B35A1A70 /* Result.swift */,
+				CA1AD03BC4AAC233647E5E34C8DBC8F5 /* String+ext.swift */,
+				3405D701F84512B719BD709BB1E84CD5 /* Then.swift */,
+				0716E73A203531AA6E5FE213364F0555 /* UIAlertController+ext.swift */,
+				E9C1ACC54B00876C4941E3D71424E311 /* UIDevice+ext.swift */,
+				D9236B28C808D7115BA8385F701AEB1B /* UIImage+ext.swift */,
+				A6D38FB58704DDB6C4EF8B7A694C4FB7 /* UIView+Animations.swift */,
+				8EA555FB253C242A6903DCE331B58685 /* UIView+Ext.swift */,
+				C1A471277C53C522FAD99EAB19C78D91 /* UIViewController+ext.swift */,
+				F4BD45A6361CCC40A17DF1E4D22A57A1 /* ValidatableView.swift */,
+				D66CC53ADE3D6DA8F27ADF60CB2319BA /* Validation.swift */,
+				B8794C5D300C6ABFCED5DF3878E03EB5 /* Haptic */,
+				9A3B0099920681E4BD1FE9F656421B80 /* Pod */,
+				11B68917B803E7DEF24E2DECA400FF1D /* Signals */,
+				B0BC1FCBA9ECF1470BA6EF6CD6CEF048 /* Support Files */,
+				EE47CA849FE263FBF5427AF79E06EA41 /* UIKit */,
+				1C8EF99A3659D3A8C70603A243614E7D /* Utilities */,
 			);
-			name = Utilities;
-			path = Sources/TeleTools/Utilities;
+			name = TeleTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A3B0099920681E4BD1FE9F656421B80 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E2B7BB95B8377C44C5AE764953D7E6D3 /* LICENSE */,
+				DEE58BF2F5835A6646735F2796C3316B /* README.md */,
+				EBC71585BCA71844C86A2DCB46821E70 /* TeleTools.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F639D8C7F0335D47952A0F3ED0B5C46 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2EFB275002A8CF25D8FE9A0515F53FD /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A8E85D7595AFD01C67A69BDC7E2470F1 /* Targets Support Files */ = {
@@ -304,12 +344,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B9768399E1DF1915310181F3A92D3FF1 /* Development Pods */ = {
+		B0BC1FCBA9ECF1470BA6EF6CD6CEF048 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F9A06A246CD38D47CF1CF18FC0E9DC4 /* TeleTools */,
+				D0C843CFD13A6441278BCF1FBC433480 /* TeleTools.modulemap */,
+				329B26EAA7678B549A8526DD6360F1A3 /* TeleTools-dummy.m */,
+				EE22920A3070606CF0FCD85E5C04D5A9 /* TeleTools-Info.plist */,
+				32E4A84466EA7F378AC362993FFD43C7 /* TeleTools-prefix.pch */,
+				0E3E8AA9577CE0DFE9617FC0227A55A6 /* TeleTools-umbrella.h */,
+				FEA5315766B025AF1ECC0C866DEB2866 /* TeleTools.debug.xcconfig */,
+				F45B5582C36B7ACA797AC327A71B5CC3 /* TeleTools.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "PodExample/Pods/Target Support Files/TeleTools";
+			sourceTree = "<group>";
+		};
+		B8794C5D300C6ABFCED5DF3878E03EB5 /* Haptic */ = {
+			isa = PBXGroup;
+			children = (
+				91579E8D1D6070D567879E8C08C02ABC /* Haptic.swift */,
+				F42F9F9AB30DE648BE9D7040350EAC44 /* Hapticable.swift */,
+			);
+			name = Haptic;
+			path = Sources/TeleTools/Haptic;
 			sourceTree = "<group>";
 		};
 		BD65305DC10448B81A325BB77F3426F6 /* Products */ = {
@@ -322,65 +379,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C2EA939518DC02712C39E6DD881EE834 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D7F9DE9A1F5194992E90F31147D454E /* TeleTools.modulemap */,
-				75A80D5297EE10ED5C90C7CE10BA8CC2 /* TeleTools-dummy.m */,
-				A45C0A2F346580FBE5BAD8B44C01EAAB /* TeleTools-Info.plist */,
-				374A77B5053F55B37B32BC97073CC19E /* TeleTools-prefix.pch */,
-				6554A872F755D64319457C9B69A162A1 /* TeleTools-umbrella.h */,
-				DE6C1C29E1FCD845805FC4D3C4E12F85 /* TeleTools.debug.xcconfig */,
-				BD8EFF539772E2A46520BEAD4E98C497 /* TeleTools.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "PodExample/Pods/Target Support Files/TeleTools";
-			sourceTree = "<group>";
-		};
-		C3F6B501E1A336DACC76358D0A9450C0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				236B2F3F53823A811CDFBDD32042FD70 /* LICENSE */,
-				199101E8D2C131C2B96093D79995DDE3 /* README.md */,
-				C183B2E9723655DEC3EF674525F5088C /* TeleTools.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C6FBE1FE5D968B8DE7B74A10AC99E80B /* Keyboard */ = {
-			isa = PBXGroup;
-			children = (
-				A57EA69E41977F6A322F56CE32DCAFA9 /* KeyboardObserver.swift */,
-				52BC5638C70DE9C79D6DDF87E7266426 /* InputVisibilityController */,
-			);
-			name = Keyboard;
-			path = Keyboard;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B9768399E1DF1915310181F3A92D3FF1 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				024A867655A89F80213A1970BD703FD4 /* Development Pods */,
+				DDFC6E9EE217ECA4066C824D9A05D784 /* Frameworks */,
 				6ABEEA7AE8070D3C9261B4662AC5A6F2 /* Pods */,
 				BD65305DC10448B81A325BB77F3426F6 /* Products */,
 				A8E85D7595AFD01C67A69BDC7E2470F1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DDFC6E9EE217ECA4066C824D9A05D784 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				32C9B64A1BAC9E8301F71EAEF5103BF2 /* TinyConstraints.framework */,
+				9F639D8C7F0335D47952A0F3ED0B5C46 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -401,18 +416,17 @@
 			path = TinyConstraints;
 			sourceTree = "<group>";
 		};
-		FD83F036F5FF6BA4EC89B3556AAFC50D /* Signals */ = {
+		EE47CA849FE263FBF5427AF79E06EA41 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				AB2585CEF92E15A410D87020F50E3897 /* Associated.swift */,
-				F52577A6CA97D3A25EF950206747AB75 /* AssociatedObject.swift */,
-				F32B2793C8F6D98A1B58500EB8C5F756 /* Signal.swift */,
-				2F837F7B7E6662FF1519F2AA2183B35F /* SignalSubscription.swift */,
-				59A4AB1202124F739504DAE26C720E43 /* UIBarButtonItem+Signals.swift */,
-				9EAA2C8E4FDE5282F6B66AE955F23136 /* UIControl+Signals.swift */,
+				8F15295804B5506DBA6AA75AF9E202E4 /* Display.swift */,
+				BDB405E3A8366626FC451E115D82A371 /* Snapshot.swift */,
+				6D18087A9EC724566C985A636E37919C /* UIGestureRecognizer+ext.swift */,
+				63E639820ED6E33E91814F2C1C0E4D0A /* UIWindow+ext.swift */,
+				0615D841081699FB01EA29F5185FB606 /* Keyboard */,
 			);
-			name = Signals;
-			path = Sources/TeleTools/Signals;
+			name = UIKit;
+			path = Sources/TeleTools/UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,19 +440,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D99A8C01B55F89DC2D1EFA0656BD674 /* Headers */ = {
+		8B590F6C0E7FB97E6E1F7A1E1BCDA83E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1611F7DDBA713AB33D11CC627B817ADC /* TeleTools-umbrella.h in Headers */,
+				F2108A598B4361DAD7C3DD129DE87F6F /* TinyConstraints-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98FE3D0A640F390EA7AEA8E88F47DEDA /* Headers */ = {
+		BE6C537E143210CFD01A426FF8C2924C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F686C87FC60238F640B1973302B6D08 /* TinyConstraints-umbrella.h in Headers */,
+				3B3B80EAA8194F5160BB0A16ACED540E /* TeleTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,12 +461,12 @@
 /* Begin PBXNativeTarget section */
 		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DED162CA822CAFF9F3B82904FBA2988C /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildConfigurationList = EF486CCB2B7A0EEB36D0789A9474CAD5 /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
 			buildPhases = (
-				98FE3D0A640F390EA7AEA8E88F47DEDA /* Headers */,
-				B22F16F1C73358E59AE260C86E3D1F1D /* Sources */,
-				36535A7B888AFE58F76BDA6B07CEB9C6 /* Frameworks */,
-				7465A1319E37DADA12A8BAEB409143AA /* Resources */,
+				8B590F6C0E7FB97E6E1F7A1E1BCDA83E /* Headers */,
+				741DF9AFFF862D95E3819136FA080D91 /* Sources */,
+				2F863944189B619C76C95C29F9F4BFCB /* Frameworks */,
+				736630C410F0A62D80609E3637015927 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -475,8 +489,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				46AC2AA18D3A124F739D8A365335A1D3 /* PBXTargetDependency */,
-				16D76C2C47D4C72354740C47277D99FF /* PBXTargetDependency */,
+				17985E6D77B7EF62582C21697356E693 /* PBXTargetDependency */,
+				3FF991123FE9E48A70EADD3F4446F9A4 /* PBXTargetDependency */,
 			);
 			name = "Pods-TeleTools_Example";
 			productName = "Pods-TeleTools_Example";
@@ -485,16 +499,17 @@
 		};
 		A730C3CD4B1B25CEEAA97FF5238BB10F /* TeleTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E61B5657327BCE73ED52AD762DD5FD4E /* Build configuration list for PBXNativeTarget "TeleTools" */;
+			buildConfigurationList = DE87FB932788BFB4417CF9592316C2BE /* Build configuration list for PBXNativeTarget "TeleTools" */;
 			buildPhases = (
-				8D99A8C01B55F89DC2D1EFA0656BD674 /* Headers */,
-				1A4E15966FD650E9EFB956E408C95724 /* Sources */,
-				8F12B167BF329834034354D508775FE5 /* Frameworks */,
-				32772327415408D6A892F377F502228F /* Resources */,
+				BE6C537E143210CFD01A426FF8C2924C /* Headers */,
+				CB0B674860439CDE5717713A0395CE21 /* Sources */,
+				1DF1D2C66F692A354F6D91F2C5206414 /* Frameworks */,
+				C5AD7358D6857F7929B4BD5048840290 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1255E07644E705905041585C061A6C89 /* PBXTargetDependency */,
 			);
 			name = TeleTools;
 			productName = TeleTools;
@@ -531,14 +546,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32772327415408D6A892F377F502228F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7465A1319E37DADA12A8BAEB409143AA /* Resources */ = {
+		736630C410F0A62D80609E3637015927 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -552,64 +560,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		1A4E15966FD650E9EFB956E408C95724 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		C5AD7358D6857F7929B4BD5048840290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB5C1E24646625EFDD8BC8D0EBB2EFD /* Associated.swift in Sources */,
-				A8F7C1B9900BE49A48037A2E4AB1E8B7 /* AssociatedObject.swift in Sources */,
-				3111D327F649A6A493BED85D5A2A0143 /* AsyncOperation.swift in Sources */,
-				224F35B588476213E0B0AC1B39929E00 /* Collections+ext.swift in Sources */,
-				3C8D7933B64A61DEDBC4A67EE8E1556A /* CoreGraphics+ext.swift in Sources */,
-				1F3AE3235137CF84A4F40093FC0441AE /* Display.swift in Sources */,
-				C70512D9AC7AABAC6AE97A1A76B628F6 /* Fillable.swift in Sources */,
-				CF02EC2E221252D9C6969EF65CE65C02 /* Haptic.swift in Sources */,
-				BAFA8468337ED1F5F6C3D68FC843CF44 /* Hapticable.swift in Sources */,
-				F4BF68155DE83ED40C740EA7F9EE3E15 /* InputVisibilityController.swift in Sources */,
-				0842534259C1A6F8DEDA352D8BE91E88 /* KeyboardObserver.swift in Sources */,
-				82FDE96FFFEE01BA537A092D8FDB9C36 /* NSAttributedStrings+ext.swift in Sources */,
-				835C722D5BD2FE03D6485A5F393AEDBF /* Reachability.swift in Sources */,
-				0BB7B551E8AC438A0E94A91501C3CC87 /* ReaderWriterLock.swift in Sources */,
-				CA2EC72A707A5E422B754764160E4280 /* Result.swift in Sources */,
-				AAD549227AB02F6D85D5A4F8F0E86EBF /* Signal.swift in Sources */,
-				A5AD56B6C752EB95E89D553B81BE128E /* SignalSubscription.swift in Sources */,
-				24F5DE49605E9E40CBB21333BBF83A5F /* SimpleError.swift in Sources */,
-				CBE5AE4691C03C1062B2FC56A8B6C521 /* Snapshot.swift in Sources */,
-				8DCD6F440587FA8D3A5F6F0918A88BE9 /* String+ext.swift in Sources */,
-				06FA3B828EBC0EFE128A8F813A03BC88 /* TeleTools-dummy.m in Sources */,
-				D5CFB8A31EA957515FD3195AC242782A /* Then.swift in Sources */,
-				581C9781C6886180441FE353A636EAC2 /* Time.swift in Sources */,
-				769AD28D87D6138B3D060F3FD84BA5C0 /* TouchRecognizer.swift in Sources */,
-				F76A65D150C88060F652E5DB8C9C8E14 /* UIAlertController+ext.swift in Sources */,
-				02B60BF8B9C484C9F30E5EF0430D1D78 /* UIBarButtonItem+Signals.swift in Sources */,
-				6A04B46498903EFBD4221A92FC121CED /* UIControl+Signals.swift in Sources */,
-				B45CEEFC0B8371F2AFFB683888CD8474 /* UIDevice+ext.swift in Sources */,
-				76E9FF9B6C0C3606BFCA623BBED26E28 /* UIGestureRecognizer+ext.swift in Sources */,
-				475763EFE7C2F8C746575166FB009C57 /* UIImage+ext.swift in Sources */,
-				E85A5698B28301501CBC789987F04EE4 /* UIView+Animations.swift in Sources */,
-				0356879737D597AD94C2AC087A77C0F4 /* UIView+Ext.swift in Sources */,
-				C34375F1F19E45E00BCD5F4B4D94023B /* UIViewController+ext.swift in Sources */,
-				A459B8C0FF4A89503F4E175266A6A636 /* UIWindow+ext.swift in Sources */,
-				261EC324578C07E41A10A9567BD1AA10 /* ValidatableView.swift in Sources */,
-				69960CC33957184087720E851E1DE167 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B22F16F1C73358E59AE260C86E3D1F1D /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741DF9AFFF862D95E3819136FA080D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF984D0BDE08492C60CC2D9C75E2C96 /* Abstraction.swift in Sources */,
-				EAB56C7B2652650A976538B12FBAC59D /* Constrainable.swift in Sources */,
-				CBF8630B51B556B1D93FF064C433A66E /* Constraints.swift in Sources */,
-				DF7A6BC0D371FF7ECA74781F562C475F /* Stack.swift in Sources */,
-				80C64F8B50FDB2E25A939480C3FEC43A /* TinyConstraints+superview.swift in Sources */,
-				602071FBBC9CE2E7E138D4B67223D4A9 /* TinyConstraints-dummy.m in Sources */,
-				0D24FEFEF4298905C4AE3E9FC22DBC38 /* TinyConstraints.swift in Sources */,
-				CCAEE4BF0C676D5173590E04D29BAE92 /* TinyEdgeInsets.swift in Sources */,
+				347622672C41FD4FC127A77AEA7E1EB5 /* Abstraction.swift in Sources */,
+				A9DE0B4D8CD3DFC21D3C0D0BBCDD0A93 /* Constrainable.swift in Sources */,
+				6AE6856D06A1AD0E18A4C2ED906E8D02 /* Constraints.swift in Sources */,
+				ED8AC506D2167BBD452498432183E4F3 /* Stack.swift in Sources */,
+				2D76BD62F84144C42E6CEF722BD8E4E3 /* TinyConstraints+superview.swift in Sources */,
+				2D50BA15B58FB2EEE8518E9F747AA1E5 /* TinyConstraints-dummy.m in Sources */,
+				FA850B60D9D1B538341ADE468F2FC7FD /* TinyConstraints.swift in Sources */,
+				225139B2B0FB117708A038EC61FB5D03 /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0B674860439CDE5717713A0395CE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CA3E6524BB2AB23493B8956C4B9357 /* Associated.swift in Sources */,
+				316F6AAEE661CC916DD8DA9F0E1ED68A /* AssociatedObject.swift in Sources */,
+				E87CFBB1559A8D3D80BDCA0884A460A8 /* AsyncOperation.swift in Sources */,
+				A5E1A4D37C7CE0343725E93BE6817648 /* Collections+ext.swift in Sources */,
+				A79493A75917C2D3CA3782715C034257 /* CoreGraphics+ext.swift in Sources */,
+				A86F7D65BEFDA96C7A41C40CEBFE9AD3 /* Dependencies.swift in Sources */,
+				AD846C7F1C2DB6A3364B15498322BBCB /* Display.swift in Sources */,
+				BF851A1CD57A7E5B84D4982CC0EF0CB2 /* Fillable.swift in Sources */,
+				5949169DBE1D7DA8E1CA41D523F89C6A /* Haptic.swift in Sources */,
+				531FC94B84BB526D211A505BB10F995F /* Hapticable.swift in Sources */,
+				658F6866FF4F6E1F95E5BA4EBD7235A6 /* InputVisibilityController.swift in Sources */,
+				BB5AA8414AA6203D9B2BCFC519531536 /* KeyboardObserver.swift in Sources */,
+				5D80D8B3529EEA9C531B1E45384402CE /* NSAttributedStrings+ext.swift in Sources */,
+				DB13644908F982C47D4218D613CAEAAD /* Reachability.swift in Sources */,
+				26A9B81EA9520201909123CFD601647B /* ReaderWriterLock.swift in Sources */,
+				69B223FF67C220E3ABA7063048B6FE6E /* Result.swift in Sources */,
+				474B3683C2E6618BCA275050D3B4AE91 /* Signal.swift in Sources */,
+				D4A864980F6CF3AFC1A5DAA2CC165547 /* SignalSubscription.swift in Sources */,
+				9783CDE7DCDF2E5F017D9099367D154A /* SimpleError.swift in Sources */,
+				D78720B463FA5C9FD40B73CC86468074 /* Snapshot.swift in Sources */,
+				55700357FB16E7B526647B2E9639C434 /* String+ext.swift in Sources */,
+				FC52F7DD946E25FA9D09C88569CE585A /* TeleTools-dummy.m in Sources */,
+				445401B653948519430F0A94A5231EF8 /* Then.swift in Sources */,
+				0E79AFAAB81C6C09ECA1361E8F5E195E /* Time.swift in Sources */,
+				33E726BF139A029E16D7FEE5C0FD739E /* TouchRecognizer.swift in Sources */,
+				F0EFC2403DD306F2368B9BF4A7BECB32 /* UIAlertController+ext.swift in Sources */,
+				FBF302013C4FFC064C9FB3BCD43C03D4 /* UIBarButtonItem+Signals.swift in Sources */,
+				C4CE54F138FB1860D99B01A45E2CF3FE /* UIControl+Signals.swift in Sources */,
+				25BC99279BFB692B47264DD650EF94AE /* UIDevice+ext.swift in Sources */,
+				E492ACA289A3661A48324C4DFA0C147B /* UIGestureRecognizer+ext.swift in Sources */,
+				CF318783608E522CC99EA0A9D2EEBB87 /* UIImage+ext.swift in Sources */,
+				731EC270FF8C8929707BA0513122F20C /* UIView+Animations.swift in Sources */,
+				FAA16370708620D5EBA13816F75AC29C /* UIView+Ext.swift in Sources */,
+				9C52E3B87A5E5656FEA44B76E0E85F56 /* UIViewController+ext.swift in Sources */,
+				BAE5A71E134B2C4A66202B1449E1EAB7 /* UIWindow+ext.swift in Sources */,
+				B60BD03C12C1FA703DDB738DFEEAA1D6 /* ValidatableView.swift in Sources */,
+				42D057AFDE53EF70390D24BDCFBC8F27 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,24 +640,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16D76C2C47D4C72354740C47277D99FF /* PBXTargetDependency */ = {
+		1255E07644E705905041585C061A6C89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TinyConstraints;
 			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
-			targetProxy = A34121D79BB2B456720054EF519625B6 /* PBXContainerItemProxy */;
+			targetProxy = 4D5E3BEDD25FFC4FDDDBD29B79E404CB /* PBXContainerItemProxy */;
 		};
-		46AC2AA18D3A124F739D8A365335A1D3 /* PBXTargetDependency */ = {
+		17985E6D77B7EF62582C21697356E693 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TeleTools;
 			target = A730C3CD4B1B25CEEAA97FF5238BB10F /* TeleTools */;
-			targetProxy = 6506F2014FFBF6AFBC947A788D66425C /* PBXContainerItemProxy */;
+			targetProxy = EFCF16E6835418234644CD6B095E4E7A /* PBXContainerItemProxy */;
+		};
+		3FF991123FE9E48A70EADD3F4446F9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 359E9478E2202DCB43051EC41FF0D82B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1AF279A292571903D2B091CB9850BF97 /* Release */ = {
+		107B87E644C8FE6935A747EE149DE93C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD8EFF539772E2A46520BEAD4E98C497 /* TeleTools.release.xcconfig */;
+			baseConfigurationReference = BFE2FED9E5E9AC54EDA0E6C44E8B1755 /* TinyConstraints.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43E86BAC2821D8ED09E9D8C3ED9C8031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA5315766B025AF1ECC0C866DEB2866 /* TeleTools.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -661,38 +715,6 @@
 				MODULEMAP_FILE = "Target Support Files/TeleTools/TeleTools.modulemap";
 				PRODUCT_MODULE_NAME = TeleTools;
 				PRODUCT_NAME = TeleTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5174AF0CBFCB57F6F8E78B901A5387A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5E27C1634FB36D16B17E42A64881B91 /* TinyConstraints.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
-				PRODUCT_MODULE_NAME = TinyConstraints;
-				PRODUCT_NAME = TinyConstraints;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -799,6 +821,37 @@
 			};
 			name = Release;
 		};
+		A70283EB64C8F75D4FCDE561E1DFF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E27C1634FB36D16B17E42A64881B91 /* TinyConstraints.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B1B259C5FB7465EF9C71163827046E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -864,38 +917,6 @@
 			};
 			name = Debug;
 		};
-		BE5B140BFE7F1037F3F2120348C63925 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE2FED9E5E9AC54EDA0E6C44E8B1755 /* TinyConstraints.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
-				PRODUCT_MODULE_NAME = TinyConstraints;
-				PRODUCT_NAME = TinyConstraints;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C71C9F97C2C5CD61B8ACA5A74702ABAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF769975D1E173005A490F6C3D7845F1 /* Pods-TeleTools_Example.debug.xcconfig */;
@@ -930,9 +951,9 @@
 			};
 			name = Debug;
 		};
-		DCE67EE64DE08E4D6F386386E8BC2A3A /* Debug */ = {
+		F38B18AF3013C2552151BA22809F390B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE6C1C29E1FCD845805FC4D3C4E12F85 /* TeleTools.debug.xcconfig */;
+			baseConfigurationReference = F45B5582C36B7ACA797AC327A71B5CC3 /* TeleTools.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -957,10 +978,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -974,20 +996,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DED162CA822CAFF9F3B82904FBA2988C /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+		DE87FB932788BFB4417CF9592316C2BE /* Build configuration list for PBXNativeTarget "TeleTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5174AF0CBFCB57F6F8E78B901A5387A1 /* Debug */,
-				BE5B140BFE7F1037F3F2120348C63925 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E61B5657327BCE73ED52AD762DD5FD4E /* Build configuration list for PBXNativeTarget "TeleTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCE67EE64DE08E4D6F386386E8BC2A3A /* Debug */,
-				1AF279A292571903D2B091CB9850BF97 /* Release */,
+				43E86BAC2821D8ED09E9D8C3ED9C8031 /* Debug */,
+				F38B18AF3013C2552151BA22809F390B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -997,6 +1010,15 @@
 			buildConfigurations = (
 				C71C9F97C2C5CD61B8ACA5A74702ABAE /* Debug */,
 				65C7725FF22405A2A4F6C1F6735D3E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF486CCB2B7A0EEB36D0789A9474CAD5 /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70283EB64C8F75D4FCDE561E1DFF1FB /* Debug */,
+				107B87E644C8FE6935A747EE149DE93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

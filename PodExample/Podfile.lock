@@ -1,10 +1,10 @@
 PODS:
-  - TeleTools (0.1.1)
-  - TinyConstraints (4.0.0)
+  - TeleTools (0.1.2):
+    - TinyConstraints (= 4.0.1)
+  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - TeleTools (from `../`)
-  - TinyConstraints
 
 SPEC REPOS:
   trunk:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TeleTools: ff95942f5703e581366a8942cf2044bb6171a5b0
-  TinyConstraints: 03bc091844b98c18dbaead8b1153242a42721b56
+  TeleTools: e1f5eec17c24b0324b8e41c97cd94606fcc5f17f
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: a3b7acbe129723b9d0cb7782e9e2dec68ed50f62
+PODFILE CHECKSUM: 5b012d5d08c9c1b7e8c656f3ab3784b4a783c3b0
 
 COCOAPODS: 1.10.0.rc.1
