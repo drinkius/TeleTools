@@ -8,7 +8,6 @@
 
 import UIKit
 import TeleTools
-import TinyConstraints
 
 class ViewController: UIViewController {
   override func viewDidLoad() {
@@ -20,4 +19,3 @@ class ViewController: UIViewController {
     }
   }
 }
-

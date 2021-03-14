@@ -16,7 +16,6 @@ let package = Package(
             targets: ["TeleTools"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/roberthein/TinyConstraints.git", from: "4.0.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -24,10 +23,6 @@ let package = Package(
         .target(
             name: "TeleTools",
             dependencies: [
-                .product(name: "TinyConstraints", package: "TinyConstraints"),
             ]),
-        .testTarget(
-            name: "TeleToolsTests",
-            dependencies: ["TeleTools"]),
     ]
 )

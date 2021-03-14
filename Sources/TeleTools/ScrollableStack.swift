@@ -1,6 +1,5 @@
 import Foundation
 import UIKit
-import TinyConstraints
 
 public extension UIView {
 
@@ -43,7 +42,7 @@ public extension StackContainer {
   func addSpace(height: CGFloat) -> UIView {
     return UIView().add(to: stackView).then {
       $0.backgroundColor = UIColor.clear
-      $0.height(height)
+//      $0.height(height)
     }
   }
 
@@ -135,21 +134,21 @@ public final class ScrollableStack: UIView, StackContainer {
     scrollView.do {
       $0.showsVerticalScrollIndicator = false
       $0.showsHorizontalScrollIndicator = false
-      $0.edgesToSuperview()
+//      $0.edgesToSuperview()
       $0.contentInsetAdjustmentBehavior = .never
       $0.insetsLayoutMarginsFromSafeArea = false
     }
 
     stackView.add(to: scrollView).do {
-      $0.edgesToSuperview()
-      switch axis {
-      case .horizontal:
-        $0.height(to: scrollView)
-      case .vertical:
-        $0.width(to: scrollView)
-      @unknown default:
-        fatalError()
-      }
+//      $0.edgesToSuperview()
+//      switch axis {
+//      case .horizontal:
+//        $0.height(to: scrollView)
+//      case .vertical:
+//        $0.width(to: scrollView)
+//      @unknown default:
+//        fatalError()
+//      }
       $0.axis = axis
       $0.distribution = distribution
       $0.alignment = alignment
